@@ -46,8 +46,6 @@ curl -X POST http://localhost:3000/notifications \
 -H "Content-Type: application/json" \
 -d '{"userId": "user123", "type": "email", "message": "Hello"}'
 
-## API Testing with Postman
-
 ### 📫 1. Send Notification (POST)
 ![Postman POST Notification](assets/post.png)
 
@@ -56,4 +54,5 @@ curl -X POST http://localhost:3000/notifications \
 
 ### 🧠 3. Worker Processing Log
 ![Worker Processing Message](assets/working.png)
+
 
