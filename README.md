@@ -47,7 +47,8 @@ curl -X POST http://localhost:3000/notifications \
 -d '{"userId": "user123", "type": "email", "message": "Hello"}'
 
 ### 📫 1. Send Notification (POST)
-![Image](https://github.com/user-attachments/assets/43d2465d-438b-4223-8be6-645e966e44ff)
+![image](https://github.com/user-attachments/assets/63db4431-f908-4c44-ab32-564d3265868b)
+
 
 ### 🔍 2. Fetch User Notifications (GET)
 ![Postman GET Notification](assets/get.png)
