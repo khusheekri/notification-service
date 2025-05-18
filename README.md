@@ -39,25 +39,27 @@ npm start
 ```bash
 npm run worker
 ```
+##### API Testing with Postman
 
+## 📫 1. Send Notification (POST)
+![image](https://github.com/khusheekri/notification-service/blob/9bc52f4a30d8451ece5ab81e25036c50512e5abb/assets/post.png)
 
-### 📫 1. Send Notification (POST)
+## 🔍 2. Fetch User Notifications (GET)
 ![image](https://github.com/khusheekri/notification-service/blob/51174958ab4cfb588fe3e604bea1e8edafa60e24/assets/get.png)
+
+## 🧠 3. Worker Processing Log
+![image](https://github.com/khusheekri/notification-service/blob/9bc52f4a30d8451ece5ab81e25036c50512e5abb/assets/working.png)
 ### Test API
 ```bash
 curl -X POST http://localhost:3000/notifications \
 -H "Content-Type: application/json" \
 -d '{"userId": "user123", "type": "email", "message": "Hello"}'
 
-### 📫 1. Send Notification (POST)
-![image](https://github.com/user-attachments/assets/63db4431-f908-4c44-ab32-564d3265868b)
+```
 
 
-### 🔍 2. Fetch User Notifications (GET)
-![Postman GET Notification](assets/get.png)
 
-### 🧠 3. Worker Processing Log
-![Worker Processing Message](assets/working.png)
+
 
 
 
