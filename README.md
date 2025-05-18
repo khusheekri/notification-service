@@ -40,6 +40,9 @@ npm start
 npm run worker
 ```
 
+
+### 📫 1. Send Notification (POST)
+![image](https://github.com/khusheekri/notification-service/blob/51174958ab4cfb588fe3e604bea1e8edafa60e24/assets/get.png)
 ### Test API
 ```bash
 curl -X POST http://localhost:3000/notifications \
